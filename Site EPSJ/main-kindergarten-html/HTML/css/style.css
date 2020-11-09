@@ -44,7 +44,7 @@ body {
     font-family:'Open Sans', sans-serif;
     font-size: 14px;
     color: #333333;
-    background-color: #eecc9f;
+    background-color: bisque;
 }
 ol, ul {
     list-style: none;
@@ -145,7 +145,7 @@ h6 {
 a {
     cursor: pointer;
     outline: none;
-    color: #000;
+    color: #ffc67f;
     text-decoration: none !important;
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
@@ -176,7 +176,7 @@ p {
     opacity: 0.6;
 }
 .overlay.green {
-    background-color: #3c63ce;
+    background-color: #0097a7;
     opacity: 0.6;
 }
 /*.overlay.color {
@@ -291,11 +291,11 @@ form input:focus, form textarea:focus {
 /*  2.  HEADER
 /*-----------------------------------------------------------------------------------*/
  #header {
-    background-color: #6b1904d7;
+    background-color: #04066bd7;
     position: fixed;
     width: 100%;
     z-index: 1000;
-    border-top: 5px solid #f3872e;
+    border-top: 5px solid #a70000;
 }
 #header .logo, ul.menus li a, #header.fixedwrap ul.menus li.has-child a:hover:after, #header.fixedwrap ul.menus li.open a:after, #header.fixedwrap .sb-icon-search, #header.fixedwrap .sb-search-submit {
     -webkit-transition: all 0.6s ease 0s;
@@ -318,7 +318,6 @@ form input:focus, form textarea:focus {
 /*-----------------------------------------------------------------------------------*/
  .mobile-menu {
     display: none;
-    margin-top: 25px;
 }
 #slide-buttons {
     background-color: #0097a7;
@@ -346,33 +345,6 @@ form input:focus, form textarea:focus {
     width: 100%;
     height: 100%;
 }
-@media (max-width: 992px) {
-    .logo.col-md-2 img {
-        max-height: 100px;
-        height: 100%
-    }
-    .navigation.col-md-10.text-right {
-        height: 50px;
-        margin-bottom: 20p0x;
-    }
-    .mobile-menu {
-        height: 50px;
-    }
-    .fa.fa-search {
-        height: 40px;
-        width:55;
-    }
-    .fa.fa-search::before{
-        height: 30px;
-    }
-    .sb-search-input{
-        height: 30px;
-        max-width: 55px;
-        background-color: orangered;
-    }
-
-}
-
 @media all and (min-width: 320px) {
     .c-menu--slide-right {
         width: 300px;
@@ -446,7 +418,7 @@ form input:focus, form textarea:focus {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    border-bottom: 1px solid #5363b8;
+    border-bottom: 1px solid #40b1bd;
     width: 100%;
     display: block;
     padding-bottom: 10px;
@@ -468,8 +440,7 @@ form input:focus, form textarea:focus {
 /*-----------------------------------------------------------------------------------*/
 /*  2c.  MAIN MENU
 /*-----------------------------------------------------------------------------------*/
-
-ul.menus {
+ ul.menus {
     float: right;
     padding: 0;
     margin: 0 60px 0 0;
@@ -489,13 +460,13 @@ ul.menus li a {
     padding: 20px 20px;
 }
 ul.menus li a:hover, ul.menus li.active a, ul.menus li.open a {
-    background-color: #5363b8;
+    background-color: #0097a7;
     color: #ffffff;
 }
 ul.menus li.has-child a:hover:after, ul.menus li.open a:after {
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
-    border-top: 7px solid #5363b8;
+    border-top: 7px solid #0097a7;
     content:"";
     display: block;
     margin: 0 auto -7px;
@@ -541,7 +512,7 @@ ul.menus li.has-child ul.child li:last-child a {
 }
 ul.menus li.has-child ul.child li a:hover {
     background-color: transparent !important;
-    color: #5363b8;
+    color: #0097a7;
 }
 ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:hover:after {
     display: none;
@@ -569,13 +540,12 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     right: 0;
     border: none;
     outline: none;
-    background:#EECC9F;
+    background: #fff;
     width: 100%;
     height: 100%;
     margin: 0;
-    margin-right: 0px;
     s z-index: 10;
-    padding: 20px 55px 20px 20px;
+    padding: 20px 65px 20px 20px;
     font-family: inherit;
     font-size: 20px;
     color: #999999;
@@ -627,17 +597,13 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     z-index: 90;
 }
 .sb-icon-search i {
-    background-color: #5363b8;
+    background-color: #0097a7;
     height: 40px;
     width: 40px;
     border-radius: 50%;
     color: #ffffff;
     line-height: 40px;
     font-size: 18px;
-}
-.search.sb-search-input{
-    padding-bottom: 5px;
-    
 }
 /*-----------------------------------------------------------------------------------*/
 /*  2e.  SLIDER
@@ -652,7 +618,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     padding-top: 107px;
 }
 .grey-background {
-    background-color: #eecc9f;
+    background-color: #f8f8f8;
 }
 #content .with-bg-image {
     position: relative;
@@ -664,10 +630,9 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
 #content .with-bg-image .container {
     position: relative;
     z-index: 100;
-
 }
 /* Page Title & Heading Block */
-.page-title {
+ .page-title {
     padding: 25px 0px 30px 0px;
 }
 .heading-block:after {
@@ -675,7 +640,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     display: block;
     margin: 30px 0;
     width: 50px;
-    border-top: 2px solid #5363b8;
+    border-top: 2px solid #0097a7;
 }
 .heading-block h2 {
     margin-bottom: 5px;
@@ -688,25 +653,10 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     display: block;
     margin: 10px 0 0 0;
     width: 75px;
-    border-top: 5px solid #5363b8;
+    border-top: 5px solid #0097a7;
 }
 .heading-block.page-title h1 {
-    margin-top: 30px;
-    margin-bottom: -3px;
-    max-height: 20px;
-    padding-top: 20px;
-}
-.grey-background.wow.fadeIn {
-    max-height: 130px;
-
-}
-.container {
-    height: 90px;
-    margin-bottom: 0px;
-}
-.heading-block.page-title.wow.fadeInUp.animated {
-    max-height: 10px;
-    padding-top: 0px;
+    margin-bottom: 0;
 }
 /* home slider */
  .flexslider-wrap .flexslider .slides > li {
@@ -723,22 +673,11 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-.titlehead p {
-    text-align: center;
-    align-content: center;
-    font-size: 80px;
-    max-height: 50px;
-    font-weight: 1000;
-    font-family: 'Open Sans';
-    color: rgb(136, 100, 10);
-    margin-top: 40px;
-
-}
 /*-----------------------------------------------------------------------------------*/
 /*  3a.  BANNER
 /*-----------------------------------------------------------------------------------*/
  .banner {
-    background-color: #5363b8;
+    background-color: #0097a7;
 }
 .banner.large {
     padding: 60px 0;
@@ -977,7 +916,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     color: #000000;
 }
 .class-type p {
-    color:  #5363b8;
+    color: #0097a7;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
@@ -987,12 +926,12 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     text-align: center;
 }
 .class-price h3 {
-    color:  #5363b8;
+    color: #0097a7;
     margin: 0;
 }
 .class-price span {
     text-transform: lowercase;
-    color:  #5363b8;
+    color: #0097a7;
     font-size: 12px;
 }
 /*-----------------------------------------------------------------------------------*/
@@ -1515,18 +1454,13 @@ ul.lesson li:first-child {
     opacity: 1;
 }
 .load-more button {
-    margin: 40px 0 10px 0 !important;
+    margin: 60px 0 0 0 !important;
 }
 /*-----------------------------------------------------------------------------------*/
 /*  8.  CONTACT PAGE
 /*-----------------------------------------------------------------------------------*/
-.contact-details.col-md-4.wow.fadeInUp {
-    background-color: #eecc9f;
-}
-
-.contact-section {
+ .contact-section {
     padding: 100px 0;
-    background-color: #eecc9f;
 }
 .map {
     position: relative;
@@ -1558,6 +1492,22 @@ ul.lesson li:first-child {
 .contact-form form input#name {
     margin-right: 10px;
 }
+.social-links.col-md-6 {
+    padding: 0;
+}
+.faceAndInsta {
+    display: inline-block;
+}
+.face {
+    display: inline-block;
+    padding-top: 8px;
+}
+.insta {
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 8px;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*  9.  BLOG PAGE
 /*-----------------------------------------------------------------------------------*/
@@ -1867,9 +1817,8 @@ ul.lesson li:first-child {
 /*-----------------------------------------------------------------------------------*/
 /*  10b.  COPYRIGHT
 /*----------------------------------------------------------------------------------*/
-#copyright {
-    padding: 0px 0;
-    margin-top: 380px;
+ #copyright {
+    padding: 30px 0;
 }
 #copyright .social-links ul {
     float: right;
