@@ -875,7 +875,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     position: relative;
 }
 .class-desc {
-    padding: 20px;
+    padding: 10px;
 }
 .class-desc h4 {
     color: #ffffff;
@@ -922,7 +922,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     text-transform: uppercase;
 }
 .class-type .class-price {
-    padding: 15px 10px;
+    padding: 10px 5px;
     text-align: center;
 }
 .class-price h3 {
