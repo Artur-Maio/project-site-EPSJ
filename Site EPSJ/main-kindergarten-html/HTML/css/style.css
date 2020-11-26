@@ -1034,6 +1034,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
 }
 .testimonial.with-bg-image h5.title {
     color: #ffffff;
+    font-size: 40px;
 }
 .testimonial h6.position {
     color: #000000;
