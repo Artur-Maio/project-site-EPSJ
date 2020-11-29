@@ -145,12 +145,12 @@
 
     var windowHeight;
     var windowWidth;
-
-    windowHeight = $(window).height();
+    
+    windowHeight = $(window).height() / 2;
     windowWidth = $(window).width();
-
+    
     $(".flexslider-wrap .slides img").each(function() {
-        var h = $(this).height();
+        var h = $(this).height() / 2;
         var w = $(this).width();
         var ratA = w / h;
         var ratI = windowWidth / windowHeight;
@@ -176,12 +176,12 @@
     var windowHeight;
     var windowWidth;
 
-    windowHeight = $(window).height();
+    windowHeight = $(window).height() / 2;
     windowWidth = $(window).width();
 
     $(".fullscreen").css('height', windowHeight);
 
-    $('.flexslider-wrap .slides li').css('height', window.innerHeight - 0);
+    $('.flexslider-wrap .slides li').css('height', (window.innerHeight - 0)/2);
 
     /*-----------------------------------------------------------------------------------*/
     /*  SKILL BAR
