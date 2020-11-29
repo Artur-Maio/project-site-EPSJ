@@ -223,7 +223,7 @@ p {
     margin-right: 0 !important;
 }
 span.yellow-text {
-    color: #f2af59;
+    color: #f8c27b;
 }
 button {
     margin: 15px 0 !important;
@@ -455,6 +455,7 @@ ul.menus li a {
     text-transform: uppercase;
     padding: 40px 20px;
     display: block;
+    color: white;
 }
 #header.fixedwrap ul.menus li a {
     padding: 20px 20px;
@@ -462,19 +463,6 @@ ul.menus li a {
 ul.menus li a:hover, ul.menus li.active a, ul.menus li.open a {
     background-color: #0097a7;
     color: #ffffff;
-}
-ul.menus li.has-child a:hover:after, ul.menus li.open a:after {
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    border-top: 7px solid #0097a7;
-    content:"";
-    display: block;
-    margin: 0 auto -7px;
-    opacity: 100;
-    position: relative;
-    bottom: -40px;
-    width: 0;
-    z-index: 100000;
 }
 #header.fixedwrap ul.menus li.has-child a:hover:after, #header.fixedwrap ul.menus li.open a:after {
     bottom: -20px;
@@ -544,7 +532,6 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     width: 100%;
     height: 100%;
     margin: 0;
-    s z-index: 10;
     padding: 20px 65px 20px 20px;
     font-family: inherit;
     font-size: 20px;
@@ -1351,9 +1338,15 @@ ul.lesson li:first-child {
 }
 .classes-page .classes-wrapper:nth-child(odd) .class-type .class-price {
     border-right: 1px solid #c1c1c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .classes-page .classes-wrapper .class-type div {
     height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .classes-page .classes-wrapper .class-type h6.title {
     font-size: 14px;
