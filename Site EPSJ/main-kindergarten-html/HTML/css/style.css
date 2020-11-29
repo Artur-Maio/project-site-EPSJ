@@ -223,7 +223,7 @@ p {
     margin-right: 0 !important;
 }
 span.yellow-text {
-    color: #f2af59;
+    color: #f8c27b;
 }
 button {
     margin: 15px 0 !important;
@@ -1355,9 +1355,15 @@ ul.lesson li:first-child {
 }
 .classes-page .classes-wrapper:nth-child(odd) .class-type .class-price {
     border-right: 1px solid #c1c1c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .classes-page .classes-wrapper .class-type div {
     height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .classes-page .classes-wrapper .class-type h6.title {
     font-size: 14px;
