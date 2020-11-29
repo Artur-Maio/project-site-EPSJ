@@ -464,19 +464,6 @@ ul.menus li a:hover, ul.menus li.active a, ul.menus li.open a {
     background-color: #0097a7;
     color: #ffffff;
 }
-ul.menus li.has-child a:hover:after, ul.menus li.open a:after {
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    border-top: 7px solid #0097a7;
-    content:"";
-    display: block;
-    margin: 0 auto -7px;
-    opacity: 100;
-    position: relative;
-    bottom: -20px;
-    width: 0;
-    z-index: 100000;
-}
 #header.fixedwrap ul.menus li.has-child a:hover:after, #header.fixedwrap ul.menus li.open a:after {
     bottom: -20px;
 }
@@ -1367,6 +1354,7 @@ ul.lesson li:first-child {
 }
 .classes-page .classes-wrapper .class-type h6.title {
     font-size: 14px;
+    padding-right: 5px;
 }
 .classes-page .classes-wrapper .class-type p {
     font-size: 22px;
