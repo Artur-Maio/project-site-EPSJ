@@ -173,7 +173,7 @@ p {
 }
 .overlay.dark {
     background-color: #000000;
-    opacity: 0.6;
+    opacity: 0.4; 
 }
 .overlay.green {
     background-color: #0097a7;
@@ -267,6 +267,10 @@ button.button-normal.green:hover, .button-normal.green a:hover {
     box-shadow: none;
     overflow: hidden;
 }
+/* .flexslider, clearfix {
+    margin-top: 25px;
+} */
+
 form input, form textarea {
     background-color: #f8f8f8;
     padding: 0 15px;
@@ -602,11 +606,13 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
 /*  3.  CONTENT
 /*-----------------------------------------------------------------------------------*/
  .single-wrapper {
-    padding-top: 68px;
+    padding-top: 10px;
+    
 }
 .grey-background {
-    background-color: #f8f8f8;
+    background-color: #f8f8f8; 
 }
+
 #content .with-bg-image {
     position: relative;
     background-repeat: no-repeat;
@@ -619,7 +625,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     z-index: 100;
 }
 /* Page Title & Heading Block */
- .page-title {
+.page-title {
     padding: 25px 0px 30px 0px;
 }
 .heading-block:after {
@@ -628,8 +634,9 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     margin: 30px 0;
     width: 50px;
     border-top: 2px solid #0097a7;
+    padding-bottom: 55px;
 }
-.heading-block h2 {
+.h1-block h2 {
     margin-bottom: 5px;
 }
 .heading-block h4.tagline {
@@ -643,7 +650,9 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     border-top: 5px solid #0097a7;
 }
 .heading-block.page-title h1 {
-    margin-bottom: 0;
+    padding-top: 55px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 /* home slider */
  .flexslider-wrap .flexslider .slides > li {
@@ -667,7 +676,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     background-color: #0097a7;
 }
 .banner.large {
-    padding: 60px 0;
+    padding: 30px 0;
 }
 .banner.small {
     padding: 30px 0;
@@ -832,15 +841,15 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
 .class-img {
     position: relative;
 }
-.class-img .overlay, .class-img span {
+.class-img .overlay, .class-img span /* {
     opacity: 0;
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-}
-.class-item:hover .overlay {
+} */
+.class-item:hover .overlay /* {
     opacity: 0.3;
-}
+} */
 .class-img span {
     position: absolute;
     font-size: 34px;
@@ -1362,7 +1371,7 @@ ul.lesson li:first-child {
 .classes-page .classes-wrapper .class-type .class-price h3 {
     font-size: 44px;
 }
-/* SINGLE CLASS */
+/* SINGLE -det*/
  .single-classes {
     padding: 100px 0;
 }
@@ -1399,6 +1408,9 @@ ul.lesson li:first-child {
 }
 .feature-item .feature-with-bg .feature-desc p {
     color: #ffffff;
+}
+.class-size {
+    text-align: center;
 }
 /*-----------------------------------------------------------------------------------*/
 /*  7.  GALLERY PAGE
