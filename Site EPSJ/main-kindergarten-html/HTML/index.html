@@ -3,206 +3,181 @@ Revisar responsividade| funcionalidade do formulário de mensagem-->
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-        <!-- Google Fonts
+    <!-- Google Fonts
         ============================================= -->
-        <link href='http://fonts.googleapis.com/css?family=Dosis:400,500,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400,500,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
-        <!-- Stylesheets
+    <!-- Stylesheets
         ============================================= -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-        <link rel="stylesheet" href="css/plugin.css" type="text/css" />
-        <link rel="stylesheet" href="css/style.css" type="text/css" />
-        <link rel="stylesheet" href="css/responsive.css" type="text/css" />
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
-        <!-- External Styles
+    <!-- External Styles
         ============================================= -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-        <!-- JavaScripts
+    <!-- JavaScripts
         ============================================= -->
-        <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
 
-        <!-- Document Title
+    <!-- Document Title
         ============================================= -->
-        <title>Escola Parque Sã José | EPSJ</title>
+    <title>Escola Parque Sã José | EPSJ</title>
 
-        <!--[if gte IE 9]>
+    <!--[if gte IE 9]>
           <style type="text/css">
             .gradient {
                filter: none;
             }
           </style>
         <![endif]-->
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <!-- MAIN WRAPPER START
+    <!-- MAIN WRAPPER START
         ============================================= -->
-        <div id="main-wrapper" class="animsition clearfix">
+    <div id="main-wrapper" class="animsition clearfix">
 
-            <!-- HEADER START
+        <!-- HEADER START
             ============================================= -->
-            <header id="header" class="site-header clearfix">
-                <div class="container">
-                    <div class="row">
-                        <!-- LOGO START
+        <header id="header" class="site-header clearfix">
+            <div class="container">
+                <div class="row">
+                    <!-- LOGO START
                         ============================================= -->
-                        <div class="logo col-md-2 col-xs-6">
-                            <a href="index.html"><img src="img/logoEpsj002.png" alt="Kindergarten Logo" /></a>
-                        </div> 
-                        <!-- LOGO END 
+                    <div class="logo col-md-2 col-xs-6">
+                        <a href="index.html"><img src="img/logoEpsj002.png" alt="Kindergarten Logo" /></a>
+                    </div>
+                    <!-- LOGO END 
 
                         <! -- NAVIGATION START
                         ============================================= -->
-                        <div class="navigation col-md-10 text-right col-xs-6">
+                    <div class="navigation col-md-10 text-right col-xs-6">
 
-                            <!-- SEARCH BAR START
+                        <!-- SEARCH BAR START
                             ============================================= -->
-                            <div id="sb-search" class="sb-search">
-                                <form>
-                                    <input class="sb-search-input" placeholder="Digite sua busca aqui..." type="search" value="" name="search" id="search">
-                                    <input class="sb-search-submit" type="submit" value="">
-                                    <span class="sb-icon-search"><i class="fa fa-search"></i></span>
-                                </form>
-                            </div>
-                            <!-- SEARCH BAR END -->
+                        <div id="sb-search" class="sb-search">
+                            <form>
+                                <input class="sb-search-input" placeholder="Digite sua busca aqui..." type="search"
+                                    value="" name="search" id="search">
+                                <input class="sb-search-submit" type="submit" value="">
+                                <span class="sb-icon-search"><i class="fa fa-search"></i></span>
+                            </form>
+                        </div>
+                        <!-- SEARCH BAR END -->
 
-                            <!--MOBILE MENU START
+                        <!--MOBILE MENU START
                             ============================================= -->
-                            <div class="mobile-menu">
-                                <button id="slide-buttons" class="icon fa fa-bars"></button>
-                            </div>
+                        <div class="mobile-menu">
+                            <button id="slide-buttons" class="icon fa fa-bars"></button>
+                        </div>
 
-                            <nav id="c-menu--slide-right" class="c-menu c-menu--slide-right">
-                                <button class="c-menu__close fa fa-close"></button>
-                                <div class="logo-menu-right text-center">
-                                    <img src="img/logoEpsj002.png" alt="" />
-                                </div>
-                                <ul class="menus-mobile">
-                                    <li><a href="index.html">Home</a></li>
-                                    <!-- <li class="has-child">
+                        <nav id="c-menu--slide-right" class="c-menu c-menu--slide-right">
+                            <button class="c-menu__close fa fa-close"></button>
+                            <div class="logo-menu-right text-center">
+                                <img src="img/logoEpsj002.png" alt="" />
+                            </div>
+                            <ul class="menus-mobile">
+                                <li><a href="index.html">Home</a></li>
+                                <!-- <li class="has-child">
                                         <a href="#">Escola</a>
                                         <ul class="child"> -->
-                                           <li><a href="about-us.html">Escola</a></li>
-                                           <!--<li><a href="teacher.html">Professores</a></li>-->
-                                        <!-- </ul> -->
-                                    <!-- </li> -->
-                                    <!-- <li class="has-child"> -->
-                                        <li><a href="classes.html">Turmas</a></li>
-                                        <!-- <ul class="child"> -->
-                                           <!-- <li><a href="single-classes.html">Single Classes</a></li> -->
-                                        <!-- </ul> -->
-                                    <!-- </li> -->
-                                    <li><a href="gallery.html">Galeria EPSJ</a></li>
-                                    <!-- <li class="has-child">
+                                <li><a href="about-us.html">Escola</a></li>
+                                <!--<li><a href="teacher.html">Professores</a></li>-->
+                                <!-- </ul> -->
+                                <!-- </li> -->
+                                <!-- <li class="has-child"> -->
+                                <li><a href="classes.html">Turmas</a></li>
+                                <!-- <ul class="child"> -->
+                                <!-- <li><a href="single-classes.html">Single Classes</a></li> -->
+                                <!-- </ul> -->
+                                <!-- </li> -->
+                                <li><a href="gallery.html">Galeria EPSJ</a></li>
+                                <!-- <li class="has-child">
                                         <a href="blog.html">Blog</a>
                                         <ul class="child">
                                            <li><a href="single-post.html">Single Post</a></li>
                                         </ul>
                                     </li> -->
-                                    <li><a href="contact.html">Contato</a></li>
-                                </ul>
-                            </nav>
-                            <div id="slide-overlay" class="slide-overlay"></div>
-                            <!-- MOBILE MENU -->
+                                <li><a href="contact.html">Contato</a></li>
+                            </ul>
+                        </nav>
+                        <div id="slide-overlay" class="slide-overlay"></div>
+                        <!-- MOBILE MENU -->
 
-                            <!-- MAIN NAVIGATION START
+                        <!-- MAIN NAVIGATION START
                             ============================================= -->
-                            <nav id="main-menu" class="menu">
-                                <ul id="menu-top-menu" class="menus">
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li class="has-child">
-                                        <a href="about-us.html">Escola</a>
-                                        <ul class="child">
-                                           <!-- <li><a href="about-us.html">Nossa Escola</a></li> -->
-                                           <!--<li><a href="teacher.html">Professores</a></li> -->
-                                        </ul>
-                                    </li>
-                                    <li class="has-child">
-                                        <a href="classes.html">Turmas</a>
-                                        <ul class="child">
-                                           <!-- <li><a href="single-classes.html">Atividades Extracurriculares</a></li> -->
-                                        </ul>
-                                    </li>
-                                    <li><a href="gallery.html">Galeria EPSJ</a></li>
-                                    <!-- <li class="has-child">
+                        <nav id="main-menu" class="menu">
+                            <ul id="menu-top-menu" class="menus">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li class="has-child">
+                                    <a href="about-us.html">Escola</a>
+                                    <ul class="child">
+                                        <!-- <li><a href="about-us.html">Nossa Escola</a></li> -->
+                                        <!--<li><a href="teacher.html">Professores</a></li> -->
+                                    </ul>
+                                </li>
+                                <li class="has-child">
+                                    <a href="classes.html">Turmas</a>
+                                    <ul class="child">
+                                        <!-- <li><a href="single-classes.html">Atividades Extracurriculares</a></li> -->
+                                    </ul>
+                                </li>
+                                <li><a href="gallery.html">Galeria EPSJ</a></li>
+                                <!-- <li class="has-child">
                                         <a href="blog.html">Blog</a>
                                         <ul class="child">
                                            <li><a href="single-post.html">Acontecimentos</a></li>
                                         </ul>
                                     </li> -->
-                                    <li><a href="contact.html">Contato</a></li>
-                                </ul>
-                            </nav>
-                            <!-- MAIN NAVIGATION END -->
-                        </div>
-                        <!-- NAVIGATION END -->
+                                <li><a href="contact.html">Contato</a></li>
+                            </ul>
+                        </nav>
+                        <!-- MAIN NAVIGATION END -->
                     </div>
+                    <!-- NAVIGATION END --> 
                 </div>
-            </header>
-            <!-- HEADER END -->
+            </div>
+        </header>
+        <!-- HEADER END -->
 
-            <!-- SLIDER START
+        <div style="background-image: url(img/slider/home/slide1.png); background-size: cover; min-height: 300px; margin-top: 80px; display: flex; justify-content: center; align-items: center;">
+                        <h3 class="title-epsj">Escola
+                            Parque São José</h3>
+        </div>
+
+        <!-- SLIDER START
             ============================================= -->
-            <section id="slider" class="flexslider-wrap fullscreen clearfix">
+        <!-- <section id="slider" class="flexslider-wrap fullscreen clearfix">
                 <div class="slider-wrapper">
                     <div class="flexslider clearfix">
                         <ul class="slides">
-                            <li class="clearfix" style="background-image: url(img/slider/home/slide1.jpg); background-size: cover; background-repeat: no-repeat;">
+                            <li class="clearfix" style="background-image: url(img/slider/home/slide1.png); background-size: contain;">
                                 <div class="overlay color"></div>    
                                 <div class="flex-content vertical-center">
                                     <div class="container">
-                                        <div class="caption wow fadeInLeft">
-                                           <!-- <h3 style="color: #ffffff; font-weight: 500;">Simple And Easy To Use</h3> -->
-                                        </div>
                                         <div class="caption wow fadeInUp">
-                                            <!-- <h3 style="font-size: 70px; color: #04066bd7; font-weight: 900; text-align: center;"></h3> -->
+                                            <h3 style="font-size: 70px; color: #04066bd7; font-weight: 900; text-align: center;">Escola Parque São José</h3>
                                         </div> 
-                                        <div class="caption wow fadeIn">
-                                           <!-- <p style="color: #ffffff; font-size: 18px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium<br/>doloremque laudantium, totam rem aperiam.</p>-->
-                                        </div>
-                                        <div class="caption wow fadeInUp">
-                                            <div class="button-normal white">
-                                               <!-- <a href="#">Buy Now</a>-->
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                             </li>
 
-                            <li class="clearfix" style="background-image: url(img/slider/home/slide3.jpg); background-size: cover; background-repeat: no-repeat;">
+                            <li class="clearfix" style="background-image: url(img/slider/home/slide2.jpg); background-size: contain;">
                                 <div class="overlay color"></div>    
                                 <div class="flex-content vertical-center">
                                     <div class="container">
                                         <div class="caption wow fadeInLeft">
-                                           <!-- <h3 style="color: #ffffff; font-weight: 500;">Simple And Easy To Use</h3> -->
-                                        </div>
-                                        <div class="caption wow fadeInUp">
-                                        </div> 
-                                        <div class="caption wow fadeIn">
-                                           <!-- <p style="color: #ffffff; font-size: 18px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium<br/>doloremque laudantium, totam rem aperiam.</p>-->
-                                        </div>
-                                        <div class="caption wow fadeInUp">
-                                            <div class="button-normal white">
-                                               <!-- <a href="#">Buy Now</a>-->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="clearfix" style="background-image: url(img/slider/home/slide2.jpg); background-size: cover; background-repeat: no-repeat;">
-                                <div class="overlay color"></div>    
-                                <div class="flex-content vertical-center">
-                                    <div class="container">
-                                        <div class="caption wow fadeInLeft">
-                                         <!-- <h3 style="color: #ffffff; font-weight: 500;">Simple And Easy To Use</h3>
+                                         <h3 style="color: #ffffff; font-weight: 500;">Simple And Easy To Use</h3>
                                         </div>
                                         <div class="caption wow fadeInUp">
                                             <h1 style="color: #ffffff; font-size: 46px;">Perfect themes for your<br>Kindergarden Site</h1>
@@ -212,7 +187,7 @@ Revisar responsividade| funcionalidade do formulário de mensagem-->
                                         </div>
                                         <div class="caption wow fadeInUp">
                                             <div class="button-normal white">
-                                                <a href="#">Buy Now</a> -->
+                                                <a href="#">Buy Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -222,180 +197,192 @@ Revisar responsividade| funcionalidade do formulário de mensagem-->
                         </ul>
                     </div>
                 </div>
-            </section>
-            <!-- SLIDER END -->
+            </section> -->
+        <!-- SLIDER END -->
 
-            <!-- CONTENT START
+        <!-- CONTENT START
             ============================================= -->
-            <section id="content">
+        <section id="content">
 
-                <!-- BANNER START
+            <!-- BANNER START
                 ============================================= -->
-                <div class="banner large text-center wow fadeInUp">
-                    <div class="container">
-                        <div class="row">
-                            <h1 class="no-margin">Bem-vindo ao site da nossa Escola</h1>
+            <div class="banner large text-center wow fadeInUp">
+                <div class="container">
+                    <div class="row">
+                        <h1 class="no-margin">Bem-vindo ao site da nossa Escola</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- BANNER END -->
+
+            <!-- ABOUT US SECTION START
+                ============================================= -->
+            <div class="about-us no-padding-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 wow fadeIn">
+                            <div class="heading-block">
+                                <h2>EPSJ</h2>
+                            </div>
+                            <p>Do Maternal até o 9º ano!</p>
+                            <p> Somos desde nossa fundação em 1982, uma escola família, onde todos são conhecidos por
+                                seus nomes, habilidades, e até dificuldades. Aqui você aprende com prazer em um ambiente
+                                agradável, com estrutura e equipe qualificada, fazendo amigos pra a vida toda.</p>
+                            <div class="button-normal green">
+                                <a href="about-us.html">Nossa Escola</a>
+                            </div>
+                        </div>
+
+                        <div class="about-img col-md-6 wow fadeInLeft">
+                            <img src="img/about-kindergarten.png" alt="" style="margin-bottom: 5em" />
                         </div>
                     </div>
                 </div>
-                <!-- BANNER END -->
+            </div>
+            <!-- ABOUT US SECTION END -->
 
-                <!-- ABOUT US SECTION START
+            <!-- FEATURES SECTION START
                 ============================================= -->
-                <div class="about-us no-padding-bottom">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 wow fadeIn">
-                                <div class="heading-block">
-                                    <h2>EPSJ</h2>
+            <div class="our-features grey-background">
+                <div class="container">
+                    <div class="heading-block wow fadeIn">
+                        <h2>Nossos diferenciais</h2>
+                        <h4 class="tagline">O melhor para nossas crianças</h4>
+                    </div>
+
+                    <div class="row">
+                        <div class="features">
+                            <div class="feature-item custom-food col-md-4 wow fadeInUp">
+                                <div class="feature-icon">
+                                    <div class="icon">
+                                        <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+                                    </div>
                                 </div>
-                                <p>Do Maternal até o 9º ano!</p>
-                                <p> Somos desde nossa fundação em 1982, uma escola família, onde todos são conhecidos por seus nomes, habilidades, e até dificuldades. Aqui você aprende com prazer em um ambiente agradável, com estrutura e equipe qualificada, fazendo amigos pra a vida toda.</p>
-                                <div class="button-normal green">
-                                    <a href="about-us.html">Nossa Escola</a>
+                                <div class="feature-desc">
+                                    <h4>Salas climatizadas</h4>
+                                    <p>O sistema de climatização das nossas amplas salas proporciona o melhor conforto
+                                        para nossos alunos.</p>
                                 </div>
                             </div>
 
-                            <div class="about-img col-md-6 wow fadeInLeft">
-                                <img src="img/about-kindergarten.png" alt="" style="margin-bottom: 5em"/>
+                            <div class="feature-item many-support col-md-4 wow fadeInUp">
+                                <div class="feature-icon">
+                                    <div class="icon">
+                                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="feature-desc">
+                                    <h4>Ensino online</h4>
+                                    <p>Contamos com a comodidade do ensino online através de nossa parceria com a
+                                        plataforma Ensinamos.com </p>
+                                </div>
                             </div>
+
+                            <div class="feature-item bus-service col-md-4 wow fadeInUp">
+                                <div class="feature-icon">
+                                    <div class="icon">
+                                        <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="feature-desc">
+                                    <h4>Feira cultural</h4>
+                                    <p>Anualmente temos nossa feira cultural. Cada turma expõe um tema tratado em sala
+                                        de aula engrandecendo o aprendizado de todos.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item music-lesson col-md-4 wow fadeInUp">
+                                <div class="feature-icon">
+                                    <div class="icon">
+                                        <i class="fa fa-bus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="feature-desc">
+                                    <h4>Eventos Externos</h4>
+                                    <p>Passeios e eventos externos promovem a interação, integração entre os alunos.
+                                        Todos os anos temos o nosso tradicional passeio de final de ano.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item excursions col-md-4 wow fadeInUp">
+                                <div class="feature-icon">
+                                    <div class="icon">
+                                        <i class="fa fa-life-ring" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="feature-desc">
+                                    <h4>Piscina</h4>
+                                    <p>Nossa piscina proporciona descontração durante dias de calor. Organizamos dias de
+                                        piscina durante o ano para a alegria da criançada, aliando diversão com
+                                        atividade física</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item languages col-md-4 wow fadeInUp">
+                                <div class="feature-icon">
+                                    <div class="icon">
+                                        <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="feature-desc">
+                                    <h4>Quadra poliesportiva</h4>
+                                    <p>Amplo espaço para prática esportiva, onde são realizadas nossas atividades de
+                                        esportes, eventos, além das nossas aulas de Educação Física.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- FEATURES SECTION END -->
+
+            <!-- FACILITY SECTION START
+                ============================================= -->
+            <div class="our-facility with-bg-image" style="background-image: url('img/our-facility-bg.jpg')">
+                <div class="container">
+                    <div class="row">
+                        <div class="facility-item col-md-3 text-center wow fadeIn">
+                            <div class="counter-number">
+                                <h2 class="counter">24</h2>
+                            </div>
+                            <h4 class="title">Professores e funcionários</h4>
+                            <p>Profissionais dedicados e capacitados. Corpo docente experiente e vocacionado .</p>
+                        </div>
+
+                        <div class="facility-item col-md-3 text-center wow fadeIn">
+                            <div class="counter-number">
+                                <h2 class="counter">83</h2>
+                            </div>
+                            <h4 class="title">Alunos</h4>
+                            <p>A parte mais importante da nossa instituição de ensino.<br> Venha participar da família
+                                EPSJ!</p>
+                        </div>
+
+                        <div class="facility-item col-md-3 text-center wow fadeIn">
+                            <div class="counter-number">
+                                <h2 class="counter">11</h2>
+                            </div>
+                            <h4 class="title">Turmas</h4>
+                            <p>Número de anlunos suficiente em cada turma, proporcionando um atendimento personalizado e
+                                a integração de todos.</p>
+                        </div>
+
+                        <div class="facility-item col-md-3 text-center wow fadeIn">
+                            <div class="counter-number">
+                                <h2 class="counter">15</h2>
+                            </div>
+                            <h4 class="title">Salas e imfraestrutura</h4>
+                            <p>Conforto e segurança proporcionando o melhor ambiente para o aproveitamento do ensino.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <!-- ABOUT US SECTION END -->
+                <div class="overlay dark"></div>
+            </div>
+            <!-- FEATURES SECTION END -->
 
-                <!-- FEATURES SECTION START
-                ============================================= -->
-                <div class="our-features grey-background">
-                    <div class="container">
-                        <div class="heading-block wow fadeIn">
-                            <h2>Nossos diferenciais</h2>
-                            <h4 class="tagline">O melhor para nossas crianças</h4>
-                        </div>
-
-                        <div class="row">
-                            <div class="features">
-                                <div class="feature-item custom-food col-md-4 wow fadeInUp">
-                                    <div class="feature-icon">
-                                        <div class="icon">
-                                            <i class="fa fa-snowflake-o" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
-                                    <div class="feature-desc">
-                                        <h4>Salas climatizadas</h4>
-                                        <p>O sistema de climatização das nossas amplas salas proporciona o melhor conforto para nossos alunos.</p>
-                                    </div>
-                                </div>
-
-                                <div class="feature-item many-support col-md-4 wow fadeInUp">
-                                    <div class="feature-icon">
-                                        <div class="icon">
-                                            <i class="fa fa-laptop" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
-                                    <div class="feature-desc">
-                                        <h4>Ensino online</h4>
-                                        <p>Contamos com a comodidade do ensino online através de nossa parceria com a plataforma Ensinamos.com </p>
-                                    </div>
-                                </div>
-
-                                <div class="feature-item bus-service col-md-4 wow fadeInUp">
-                                    <div class="feature-icon">
-                                        <div class="icon">
-                                            <i class="fa fa-picture-o" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
-                                    <div class="feature-desc">
-                                        <h4>Feira cultural</h4>
-                                        <p>Anualmente temos nossa feira cultural. Cada turma expõe um tema tratado em sala de aula engrandecendo o aprendizado de todos.</p>
-                                    </div>
-                                </div>
-
-                                <div class="feature-item music-lesson col-md-4 wow fadeInUp">
-                                    <div class="feature-icon">
-                                        <div class="icon">
-                                            <i class="fa fa-bus" aria-hidden="true"></i>    
-                                        </div>
-                                    </div>
-                                    <div class="feature-desc">
-                                        <h4>Eventos Externos</h4>
-                                        <p>Passeios e eventos externos promovem a interação, integração entre os alunos. Todos os anos temos o nosso tradicional passeio de final de ano.</p>
-                                    </div>
-                                </div>
-
-                                <div class="feature-item excursions col-md-4 wow fadeInUp">
-                                    <div class="feature-icon">
-                                        <div class="icon">
-                                            <i class="fa fa-life-ring" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
-                                    <div class="feature-desc">
-                                        <h4>Piscina</h4>
-                                        <p>Nossa piscina proporciona descontração durante dias de calor. Organizamos dias de piscina durante o ano para a alegria da criançada, aliando diversão com atividade física</p>
-                                    </div>
-                                </div>
-
-                                <div class="feature-item languages col-md-4 wow fadeInUp">
-                                    <div class="feature-icon">
-                                        <div class="icon">
-                                            <i class="fa fa-futbol-o" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
-                                    <div class="feature-desc">
-                                        <h4>Quadra poliesportiva</h4>
-                                        <p>Amplo espaço para prática esportiva, onde são realizadas nossas atividades de esportes, eventos, além das nossas aulas de Educação Física.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <!-- FEATURES SECTION END -->
-
-                <!-- FACILITY SECTION START
-                ============================================= -->
-                <div class="our-facility with-bg-image" style="background-image: url('img/our-facility-bg.jpg')">
-                    <div class="container">
-                        <div class="row">
-                            <div class="facility-item col-md-3 text-center wow fadeIn">
-                                <div class="counter-number">
-                                    <h2 class="counter">24</h2>
-                                </div>
-                                <h4 class="title">Professores e funcionários</h4>
-                                <p>Profissionais dedicados e capacitados. Corpo docente experiente e vocacionado .</p>
-                            </div>
-
-                            <div class="facility-item col-md-3 text-center wow fadeIn">
-                                <div class="counter-number">
-                                    <h2 class="counter">83</h2>
-                                </div>
-                                <h4 class="title">Alunos</h4>
-                                <p>A parte mais importante da nossa instituição de ensino.<br> Venha participar da família EPSJ!</p>
-                            </div>
-
-                            <div class="facility-item col-md-3 text-center wow fadeIn">
-                                <div class="counter-number">
-                                    <h2 class="counter">11</h2>
-                                </div>
-                                <h4 class="title">Turmas</h4>
-                                <p>Número de anlunos suficiente em cada turma, proporcionando um atendimento personalizado e a integração de todos.</p>
-                            </div>
-
-                            <div class="facility-item col-md-3 text-center wow fadeIn">
-                                <div class="counter-number">
-                                    <h2 class="counter">15</h2>
-                                </div>
-                                <h4 class="title">Salas e imfraestrutura</h4>
-                                <p>Conforto e segurança proporcionando o melhor ambiente para o aproveitamento do ensino.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="overlay dark"></div>
-                </div>
-                <!-- FEATURES SECTION END -->
-
-                <!-- OUR TEACHER SECTION START
+            <!-- OUR TEACHER SECTION START
                 ============================================= 
                 <div class="our-teacher">
                     <div class="container">
@@ -477,283 +464,286 @@ Revisar responsividade| funcionalidade do formulário de mensagem-->
                 </div>
                 -- OUR TEACHER SECTION END -->
 
-                <!-- BANNER SECTION START
+            <!-- BANNER SECTION START
                 ============================================= -->
-                <div class="banner small wow fadeIn">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 pull-left wow fadeInUp">
-                                <h3>Do maternal ao 9º ano, a melhor educação para as suas crianças.</h3>
-                            </div>
-
-                            <div class="col-md-4 wow fadeInUp">
-                                <div class="button-normal white pull-right">
-                                    <a href="classes.html" class="no-margin">Confira</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- BANNER SECTION END -->
-
-                <!-- OUR CLASSES SECTION START
-                ============================================= -->
-                <div class="our-classes wow fadeIn">
-                    <div class="container">
-                        <div class="heading-block wow fadeIn">
-                            <h2>Nossos cursos</h2>
-                        </div>
-
-                        <div class="row">
-                            <div class="classes">
-                                <div class="col-md-6 wow fadeInUp">
-                                    <a href="classes.html">
-                                        <div class="class-item" style="background-color: #e57978;">
-                                            <div class="class-img pull-right">
-                                                <img src="img/classes/classes1.jpg" alt="" />
-                                                <div class="overlay dark"></div>
-                                                <span><i class="fa fa-plus"></i></span>
-                                            </div>
-
-                                            <div class="class-details">
-                                                <div class="class-desc">
-                                                    <h4>Maternal</h4>
-                                                    <p class="class-category">A primeira etapa na educação de seus filhos.</p>
-                                                    <p class="class-date">Muito carinho e cuidado com os nossos pequenos.</p>
-                                                </div>
-
-                                                <div class="class-type">
-                                                    <div class="class-year">
-                                                        <h6 class="title">Idade</h6>
-                                                        <p>2 - 3</p>
-                                                    </div>
-
-                                                    <div class="class-size">
-                                                        <h6 class="title">nºAlunos/sala</h6>
-                                                        <p>12</p>
-                                                    </div>
-
-                                                    <div class="class-price">
-                                                        <h6 style= "text-align: center";>Condições especiais para novos alunos!!</h6>
-                                                        <h4><span></span></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-md-6 wow fadeInUp">
-                                    <a href="classes.html">
-                                        <div class="class-item" style="background-color: #fec02a;">
-                                            <div class="class-img pull-right">
-                                                <img src="img/classes/classes2.jpg" alt="" />
-                                                <div class="overlay dark"></div>
-                                                <span><i class="fa fa-plus"></i></span>
-                                            </div>
-
-                                            <div class="class-details">
-                                                <div class="class-desc">
-                                                    <h4>Educação infantil</h4>
-                                                    <p class="class-category">Primeiro ciclo da educação básica.</p>
-                                                    <p class="class-date">Profissionais especializados no ensino infantil, proporcionando uma educação global de excelência.</p>
-                                                </div>
-
-                                                <div class="class-type">
-                                                    <div class="class-year">
-                                                        <h6 class="title">Idade</h6>
-                                                        <p>4 - 6</p>
-                                                    </div>
-
-                                                    <div class="class-size">
-                                                        <h6 class="title">nº Alunos</h6>
-                                                        <p>15</p>
-                                                    </div>
-
-                                                    <div class="class-price">
-                                                        <h5 class="title"sryle="text-align: center;">Condições especiais para novos alunos!!</h5>
-                                                        <h4><span></span></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-md-6 wow fadeInUp">
-                                    <a href="classes.html">
-                                        <div class="class-item" style="background-color: #59bec9;">
-                                            <div class="class-img pull-right">
-                                                <img src="img/classes/classes3.jpg" alt="" />
-                                                <div class="overlay dark"></div>
-                                                <span><i class="fa fa-plus"></i></span>
-                                            </div>
-
-                                            <div class="class-details">
-                                                <div class="class-desc">
-                                                    <h4>Ensino Fundamental I</h4>
-                                                    <p class="class-category">Importante fase do ensino fundamental.</p>
-                                                    <p class="class-date">Alfabetização ao 5º ano. Fase de transição entre infância e adolescência.</p>
-                                                </div>
-
-                                                <div class="class-type">
-                                                    <div class="class-year">
-                                                        <h6 class="title">Idade</h6>
-                                                        <p>7 - 11</p>
-                                                    </div>
-
-                                                    <div class="class-size">
-                                                        <h6 class="title">nº Alunos</h6>
-                                                        <p>30</p>
-                                                    </div>
-
-                                                    <div class="class-price">
-                                                        <h6 class="title">Aulas presenciais e online</h6>
-                                                        <h4><span></span></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-md-6 wow fadeInUp">
-                                    <a href="classes.html">
-                                        <div class="class-item" style="background-color: #7fb881;">
-                                            <div class="class-img pull-right">
-                                                <img src="img/classes/classes4.jpg" alt="" />
-                                                <div class="overlay dark"></div>
-                                                <span><i class="fa fa-plus"></i></span>
-                                            </div>
-
-                                            <div class="class-details">
-                                                <div class="class-desc">
-                                                    <h4>Fundamental II</h4>
-                                                    <p class="class-category">Etapa da educação básica que vai do 6º ao 9º ano.</p>
-                                                    <p class="class-date">Fase na qual se aprofunda o conhecimento em preparação para o Ensino Médio.</p>
-                                                </div>
-
-                                                <div class="class-type">
-                                                    <div class="class-year">
-                                                        <h6 class="title">Idade</h6>
-                                                        <p>12 - 15</p>
-                                                    </div>
-
-                                                    <div class="class-size">
-                                                        <h6 class="title">nº Alunos</h6>
-                                                        <p>30</p>
-                                                    </div>
-
-                                                    <div class="class-price">
-                                                        <h6 class="title">Aulas presenciais e online</h6>
-                                                        <h4><span></span></h4>
-                                                    </div>  
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- OUR CLASSES SECTION END -->
-
-                <!-- OUR CLASSES SCRIPT START -->
-                <script type="text/javascript">
-                    jQuery(window).load(function(){
-                        var classDetailsHeight = jQuery('.class-item img').height();
-                        jQuery(".class-details").css("height", classDetailsHeight);
-                    });
-                </script>
-                <!-- OUR CLASSES SCRIPT END -->
-
-                <!-- TESTIMONIAL SECTION START
-                ============================================= -->
-                <div class="testimonial with-bg-image" style="background-image: url('img/testimonial-bg.jpg')">
-                    <div class="container">
-                        <div class="row">
-                            <div class="testimonial-wrap text-center wow fadeIn">
-                                <div class="testimonial-item flexslider">
-                                    <ul class="slides">
-                                        <li>
-                                            <div class="review">
-                                                <p class="text">“O principal objetivo da educação é criar pessoas capazes de fazer coisas novas,<br>e não simplesmente repetir o que as outras gerações fizeram.”</p>
-                                                <h5 class="title">Jean Piaget</h5>
-                                                <h6 class="position">Pensador do Séc.XX</h6>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="review">
-                                                <p class="text">“Ninguém é grande demais que não possa aprender, nem pequeno demais que não possa ensinar.”</p>
-                                                <h5 class="title">Esopo</h5>
-                                                <h6 class="position">Escritor da Grécia antiga</h6>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="overlay dark"></div>
-                </div>
-                <!-- TESTIMONIAL SECTION END -->
-
-            </section>
-            <!-- CONTENT END -->
-
-            <!-- FOOTER START
-            ============================================= -->
-            
-            <!-- FOOTER END -->
-
-            <!-- COPYRIGHT START
-            ============================================= -->
-            <div id="copyright">
+            <div class="banner small wow fadeIn">
                 <div class="container">
                     <div class="row">
-                        <!-- Copyright Text Start -->
-                        <div class="copyright-text col-md-6">
-                            <p>Copyright 2020 |  Todos os direitos reservados</p><a href="http://bigu.tech">Produzido por Bigu</a>
+                        <div class="col-md-8 pull-left wow fadeInUp">
+                            <h3>Do maternal ao 9º ano, a melhor educação para as suas crianças.</h3>
                         </div>
-                        <!-- Copyright Text End -->
 
-                        <!-- Social LInks Start -->
-                        <div class="social-links col-md-6">
-                            <ul class="no-padding">
-                                <li><a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="http://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
+                        <div class="col-md-4 wow fadeInUp">
+                            <div class="button-normal white pull-right">
+                                <a href="classes.html" class="no-margin">Confira</a>
+                            </div>
                         </div>
-                        <!-- Social Links End -->
                     </div>
                 </div>
             </div>
-            <!-- COPYRIGHT END -->
+            <!-- BANNER SECTION END -->
 
-        </div>
-        <!-- MAIN WRAPPER END -->
+            <!-- OUR CLASSES SECTION START
+                ============================================= -->
+            <div class="our-classes wow fadeIn">
+                <div class="container">
+                    <div class="heading-block wow fadeIn">
+                        <h2>Nossos cursos</h2>
+                    </div>
 
-        <!-- Footer Scripts
-        ============================================= -->
-        <!-- External -->
-        <script type="text/javascript" src="js/plugin.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
+                    <div class="row">
+                        <div class="classes">
+                            <div class="col-md-6 wow fadeInUp">
+                                <a href="classes.html">
+                                    <div class="class-item" style="background-color: #e57978;">
+                                        <div class="class-img pull-right">
+                                            <img src="img/classes/classes1.jpg" alt="" />
+                                        </div>
 
-        <script type="text/javascript">
-            jQuery(document).ready(function() {
+                                        <div class="class-details">
+                                            <div class="class-desc">
+                                                <h4>Maternal</h4>
+                                                <p class="class-category">A primeira etapa na educação de seus filhos.
+                                                </p>
+                                                <p class="class-date">Muito carinho e cuidado com os nossos pequenos.
+                                                </p>
+                                            </div>
 
-                jQuery(".flexslider-wrap .flexslider").flexslider({
-                    animation: "fade",
-                    animationLoop: true,
-                    animationSpeed: 1500,
-                    slideshow: true,
-                    pauseOnHover: false,
-                    controlNav: false,
-                    directionNav: true
+                                            <div class="class-type">
+                                                <div class="class-year">
+                                                    <h6 class="title">Idade</h6>
+                                                    <p>2 - 3</p>
+                                                </div>
+
+                                                <div class="class-size">
+                                                    <h6 class="title">nºAlunos</h6>
+                                                    <p>12</p>
+                                                </div>
+
+                                                <div class="class-price">
+                                                    <h6 class="title">Condições especiais para novos alunos!</h6>
+                                                    <h4><span></span></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 wow fadeInUp">
+                                <a href="classes.html">
+                                    <div class="class-item" style="background-color: #fec02a;">
+                                        <div class="class-img pull-right">
+                                            <img src="img/classes/classes2.jpg" alt="" />
+                                        </div>
+
+                                        <div class="class-details">
+                                            <div class="class-desc">
+                                                <h4>Educação infantil</h4>
+                                                <p class="class-category">Primeiro ciclo da educação básica.</p>
+                                                <p class="class-date">Profissionais especializados no ensino infantil,
+                                                    proporcionando uma educação global de excelência.</p>
+                                            </div>
+
+                                            <div class="class-type">
+                                                <div class="class-year">
+                                                    <h6 class="title">Idade</h6>
+                                                    <p>4 - 6</p>
+                                                </div>
+
+                                                <div class="class-size">
+                                                    <h6 class="title">nº Alunos</h6>
+                                                    <p>15</p>
+                                                </div>
+
+                                                <div class="class-price">
+                                                    <h6 class="title">Condições especiais para novos alunos!</h6>
+                                                    <h4><span></span></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 wow fadeInUp">
+                                <a href="classes.html">
+                                    <div class="class-item" style="background-color: #59bec9;">
+                                        <div class="class-img pull-right">
+                                            <img src="img/classes/classes3.jpg" alt="" />
+                                        </div>
+
+                                        <div class="class-details">
+                                            <div class="class-desc">
+                                                <h4>Ensino Fundamental I</h4>
+                                                <p class="class-category">Importante fase do ensino fundamental.</p>
+                                                <p class="class-date">Alfabetização ao 5º ano. Fase de transição entre
+                                                    infância e adolescência.</p>
+                                            </div>
+
+                                            <div class="class-type">
+                                                <div class="class-year">
+                                                    <h6 class="title">Idade</h6>
+                                                    <p>7 - 11</p>
+                                                </div>
+
+                                                <div class="class-size">
+                                                    <h6 class="title">nº Alunos</h6>
+                                                    <p>30</p>
+                                                </div>
+
+                                                <div class="class-price">
+                                                    <h6 class="title">Aulas presenciais e online</h6>
+                                                    <h4><span></span></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 wow fadeInUp">
+                                <a href="classes.html">
+                                    <div class="class-item" style="background-color: #7fb881;">
+                                        <div class="class-img pull-right">
+                                            <img src="img/classes/classes4.jpg" alt="" />
+                                        </div>
+
+                                        <div class="class-details">
+                                            <div class="class-desc">
+                                                <h4>Fundamental II</h4>
+                                                <p class="class-category">Etapa da educação básica que vai do 6º ao 9º
+                                                    ano.</p>
+                                                <p class="class-date">Fase na qual se aprofunda o conhecimento em
+                                                    preparação para o Ensino Médio.</p>
+                                            </div>
+
+                                            <div class="class-type">
+                                                <div class="class-year">
+                                                    <h6 class="title">Idade</h6>
+                                                    <p>12 - 15</p>
+                                                </div>
+
+                                                <div class="class-size">
+                                                    <h6 class="title">nº Alunos</h6>
+                                                    <p>30</p>
+                                                </div>
+
+                                                <div class="class-price">
+                                                    <h6 class="title">Aulas presenciais e online</h6>
+                                                    <h4><span></span></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- OUR CLASSES SECTION END -->
+
+            <!-- OUR CLASSES SCRIPT START -->
+            <script type="text/javascript">
+                jQuery(window).load(function () {
+                    var classDetailsHeight = jQuery('.class-item img').height();
+                    jQuery(".class-details").css("height", classDetailsHeight);
                 });
+            </script>
+            <!-- OUR CLASSES SCRIPT END -->
 
+            <!-- TESTIMONIAL SECTION START
+                ============================================= -->
+            <div class="testimonial with-bg-image" style="background-image: url('img/testimonial-bg.jpg')">
+                <div class="container">
+                    <div class="row">
+                        <div class="testimonial-wrap text-center wow fadeIn">
+                            <div class="testimonial-item flexslider">
+                                <ul class="slides">
+                                    <li>
+                                        <div class="review">
+                                            <p class="text">“O principal objetivo da educação é criar pessoas capazes de
+                                                fazer coisas novas,<br>e não simplesmente repetir o que as outras
+                                                gerações fizeram.”</p>
+                                            <h5 class="title">Jean Piaget</h5>
+                                            <h6 class="position">Pensador do Séc.XX</h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="review">
+                                            <p class="text">“Ninguém é grande demais que não possa aprender, nem pequeno
+                                                demais que não possa ensinar.”</p>
+                                            <h5 class="title">Esopo</h5>
+                                            <h6 class="position">Escritor da Grécia antiga</h6>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay dark"></div>
+            </div>
+            <!-- TESTIMONIAL SECTION END -->
+
+        </section>
+        <!-- CONTENT END -->
+
+        <!-- FOOTER START
+            ============================================= -->
+
+        <!-- FOOTER END -->
+
+        <!-- COPYRIGHT START
+            ============================================= -->
+        <div id="copyright">
+            <div class="container">
+                <div class="row">
+                    <!-- Copyright Text Start -->
+                    <div class="copyright-text col-md-6">
+                        <p>Copyright 2020 | Todos os direitos reservados</p><a href="http://bigu.tech">Produzido por
+                            Bigu</a>
+                    </div>
+                    <!-- Copyright Text End -->
+
+                    <!-- Social LInks Start -->
+                    <div class="social-links col-md-6">
+                        <ul class="no-padding">
+                            <li><a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="http://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- Social Links End -->
+                </div>
+            </div>
+        </div>
+        <!-- COPYRIGHT END -->
+
+    </div>
+    <!-- MAIN WRAPPER END -->
+
+    <!-- Footer Scripts
+        ============================================= -->
+    <!-- External -->
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+
+            jQuery(".flexslider-wrap .flexslider").flexslider({
+                animation: "fade",
+                animationLoop: true,
+                animationSpeed: 1500,
+                slideshow: true,
+                pauseOnHover: false,
+                controlNav: false,
+                directionNav: true
             });
-        </script>
-    </body>
+
+        });
+    </script>
+</body>
+
 </html>

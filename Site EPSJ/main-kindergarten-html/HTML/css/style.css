@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family:'Dosis', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-top: 0;
 }
 h1 {
@@ -631,10 +631,10 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
 .heading-block:after {
     content:'';
     display: block;
-    margin: 30px 0;
     width: 50px;
-    border-top: 2px solid #0097a7;
-    padding-bottom: 55px;
+    border-top: 2px solid #0097a7;    
+    padding-top: 10px;
+    margin-top: 5px;
 }
 .h1-block h2 {
     margin-bottom: 5px;
@@ -661,7 +661,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
 }
 .flexslider-wrap .flexslider .slides .flex-content {
     position: absolute;
-    top: 60%;
+    top: 50%;
     z-index: 100;
     width: 100%;
     -webkit-transform: translateY(-50%);
@@ -907,7 +907,6 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 5px;
 }
 .class-item:hover h6.title {
     color: #000000;
@@ -1367,6 +1366,7 @@ ul.lesson li:first-child {
 }
 .classes-page .classes-wrapper .class-type p {
     font-size: 22px;
+    margin-bottom: 0px;
 }
 .classes-page .classes-wrapper .class-type .class-price h3 {
     font-size: 44px;
@@ -1843,4 +1843,35 @@ ul.lesson li:first-child {
 }
 #copyright .social-links ul li a {
     font-size: 16px;
+}
+
+#slider {
+    margin-top: 67px;
+}
+
+#copyright {
+    padding: 30px 0;
+    border-top: 1px solid gainsboro;
+    background-color: white;
+}
+
+.title-epsj {
+    font-size: 6em;
+    color: #0197a7;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Open Sans';
+    text-shadow: 3px 3px white;
+    max-width: 50%;
+}
+
+@media (max-width: 768px) {
+    .title-epsj {
+        font-size: 3em;
+        color: #0197a7;
+        font-weight: 900;
+        text-align: center;
+        font-family: 'Open Sans';
+        text-shadow: 3px 3px white;
+    }
 }
