@@ -1,354 +1,431 @@
 <!-- margin-bottom do background -->
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-        <!-- Google Fonts
+    <!-- Google Fonts
         ============================================= -->
-        <link href='http://fonts.googleapis.com/css?family=Dosis:400,500,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link
+      href="http://fonts.googleapis.com/css?family=Dosis:400,500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-        <!-- Stylesheets
+    <!-- Stylesheets
         ============================================= -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-        <link rel="stylesheet" href="css/plugin.css" type="text/css" />
-        <link rel="stylesheet" href="css/style.css" type="text/css" />
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="css/responsive.css" type="text/css" />
-        <!-- External Styles
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <!-- External Styles
         ============================================= -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-        <!-- JavaScripts
+    <!-- JavaScripts
         ============================================= -->
-        <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
 
-        <!-- Document Title
+    <!-- Document Title
         ============================================= -->
-        <title>Turmas | EPSJ</title>
+    <title>Turmas | EPSJ</title>
 
-        <!--[if gte IE 9]>
-          <style type="text/css">
-            .gradient {
-               filter: none;
-            }
-          </style>
-        <![endif]-->
-    </head>
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+          filter: none;
+        }
+      </style>
+    <![endif]-->
+  </head>
 
-    <body>
-
-        <!-- MAIN WRAPPER START
+  <body>
+    <!-- MAIN WRAPPER START
         ============================================= -->
-        <div id="main-wrapper" class="animsition clearfix">
-
-            <!-- HEADER START
+    <div id="main-wrapper" class="animsition clearfix">
+      <!-- HEADER START
             ============================================= -->
-            <header id="header" class="site-header clearfix">
-                <div class="container">
-                    <div class="row">
-                        <!-- LOGO START
+      <header id="header" class="site-header clearfix">
+        <div class="container">
+          <div class="row">
+            <!-- LOGO START
                         ============================================= -->
-                        <div class="logo col-md-2 col-xs-6">
-                            <a href="index.html"><img src="img/logoEpsj002.png" alt="Kindergarten Logo" /></a>
-                        </div>
-                        <!-- LOGO END -->
+            <div class="logo col-md-2 col-xs-6">
+              <a href="index.html"
+                ><img src="img/logoEpsj002.png" alt="Kindergarten Logo"
+              /></a>
+            </div>
+            <!-- LOGO END -->
 
-                        <!-- NAVIGATION START
+            <!-- NAVIGATION START
                         ============================================= -->
-                        <div class="navigation col-md-10 text-right col-xs-6">
-
-                            <!-- SEARCH BAR START
+            <div class="navigation col-md-10 text-right col-xs-6">
+              <!-- SEARCH BAR START
                             ============================================= -->
-                            <div id="sb-search" class="sb-search">
-                                <form>
-                                    <input class="sb-search-input" placeholder="Digite sua busca aqui..." type="search" value="" name="search" id="search">
-                                    <input class="sb-search-submit" type="submit" value="">
-                                    <span class="sb-icon-search"><i class="fa fa-search"></i></span>
-                                </form>
-                            </div>
-                            <!-- SEARCH BAR END -->
+              <div id="sb-search" class="sb-search">
+                <form>
+                  <input
+                    class="sb-search-input"
+                    placeholder="Digite sua busca aqui..."
+                    type="search"
+                    value=""
+                    name="search"
+                    id="search"
+                  />
+                  <input class="sb-search-submit" type="submit" value="" />
+                  <span class="sb-icon-search"
+                    ><i class="fa fa-search"></i
+                  ></span>
+                </form>
+              </div>
+              <!-- SEARCH BAR END -->
 
-                            <!--MOBILE MENU START
+              <!--MOBILE MENU START
                             ============================================= -->
-                            <div class="mobile-menu">
-                                <button id="slide-buttons" class="icon fa fa-bars"></button>
-                            </div>
+              <div class="mobile-menu">
+                <button id="slide-buttons" class="icon fa fa-bars"></button>
+              </div>
 
-                            <nav id="c-menu--slide-right" class="c-menu c-menu--slide-right">
-                                <button class="c-menu__close fa fa-close"></button>
-                                <div class="logo-menu-right text-center">
-                                    <img src="img/logoEpsj002.png" alt="" />
-                                </div>
-                                <ul class="menus-mobile">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li class="has-child">
-                                        <a href="#">Escola</a>
-                                        <ul class="child">
-                                           <!-- <li><a href="about-us.html">Nossa Escola</a></li> -->
-                                        <!--<li><a href="teacher.html">Teacher</a></li>-->
-                                        </ul>
-                                    </li>
-                                    <li class="has-child">
-                                        <a href="classes.html">Turmas</a>
-                                        <ul class="child">
-                                           <li><!--a href="single-classes.html"--></a></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="gallery.html">Galeria EPSJ</a></li>
-                                    <!-- <li class="has-child">
+              <nav id="c-menu--slide-right" class="c-menu c-menu--slide-right">
+                <button class="c-menu__close fa fa-close"></button>
+                <div class="logo-menu-right text-center">
+                  <img src="img/logoEpsj002.png" alt="" />
+                </div>
+                <ul class="menus-mobile">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="has-child">
+                    <a href="#">Escola</a>
+                    <ul class="child">
+                      <!-- <li><a href="about-us.html">Nossa Escola</a></li> -->
+                      <!--<li><a href="teacher.html">Teacher</a></li>-->
+                    </ul>
+                  </li>
+                  <li class="has-child">
+                    <a href="classes.html">Turmas</a>
+                    <ul class="child"></ul>
+                  </li>
+                  <li><a href="gallery.html">Galeria EPSJ</a></li>
+                  <!-- <li class="has-child">
                                         <a href="blog.html">Blog</a>
                                         <ul class="child">
                                         <li><a href="single-post.html">Single Post</a></li>
                                         </ul>
                                     </li> -->
-                                    <li><a href="contact.html">Contato</a></li>
-                                </ul>
-                            </nav>
-                            <div id="slide-overlay" class="slide-overlay"></div>
-                            <!-- MOBILE MENU -->
+                  <li><a href="contact.html">Contato</a></li>
+                </ul>
+              </nav>
+              <div id="slide-overlay" class="slide-overlay"></div>
+              <!-- MOBILE MENU -->
 
-                            <!-- MAIN NAVIGATION START
+              <!-- MAIN NAVIGATION START
                             ============================================= -->
-                            <nav id="main-menu" class="menu">
-                                <ul id="menu-top-menu" class="menus">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li class="has-child">
-                                        <a href="about-us.html">Escola</a>
-                                        <ul class="child">
-                                           <!-- <li><a href="about-us.html">Nossa Escola</a></li> -->
-                                        <!--<li><a href="teacher.html">Teacher</a></li>-->
-                                        </ul>
-                                    </li>
-                                    <li class="active has-child">
-                                        <a href="classes.html">Turmas</a>
-                                        <ul class="child">
-                                        <!--<li><a href="single-classes.html">Atividades extracurriculares</a></li>-->
-                                        </ul>
-                                    </li>
-                                    <li><a href="gallery.html">Galeria EPSJ</a></li>
-                                    <!-- <li class="has-child">
+              <nav id="main-menu" class="menu">
+                <ul id="menu-top-menu" class="menus">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="has-child">
+                    <a href="about-us.html">Escola</a>
+                    <ul class="child">
+                      <!-- <li><a href="about-us.html">Nossa Escola</a></li> -->
+                      <!--<li><a href="teacher.html">Teacher</a></li>-->
+                    </ul>
+                  </li>
+                  <li class="active has-child">
+                    <a href="classes.html">Turmas</a>
+                    <ul class="child">
+                      <!--<li><a href="single-classes.html">Atividades extracurriculares</a></li>-->
+                    </ul>
+                  </li>
+                  <li><a href="gallery.html">Galeria EPSJ</a></li>
+                  <!-- <li class="has-child">
                                         <a href="blog.html">Blog</a>
                                         <ul class="child">
                                            <li><a href="single-post.html">Acontecimentos</a></li>
                                         </ul>
                                     </li> -->
-                                    <li><a href="contact.html">Contato</a></li>
-                                </ul>
-                            </nav>
-                            <!-- MAIN NAVIGATION END -->
-                        </div>
-                        <!-- NAVIGATION END -->
-                    </div>
-                </div>
-            </header>
-            <!-- HEADER END -->
-
-            <!-- CONTENT START
-            ============================================= -->
-            <section id="content" class="single-wrapper">
-                <!-- Page Title -->
-                <div class="grey-background wow fadeIn"style="background-image: url(img/slider/home/slide1original.jpg); background-size: cover; background-repeat: no-repeat; padding-bottom: 30px; margin-top: 58px;">
-                    <div class="container">
-                        <div class="heading-block page-title wow fadeInUp">
-                            <h1>Nossas Turmas</h1>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- CLASS START
-                ============================================= -->
-                <div class="classes-page">
-                    <div class="container">
-                        <div class="classes-wrapper wow fadeInUp">
-                        <!--<a href="single-classes.html"> -->
-                                <div class="class-item" style="background-color: #59bec9;">
-                                    <div class="class-img">
-                                        <img src="img/classes/classes1-large.jpg" alt="" />
-                                        <!-- <div class="overlay dark"></div> -->
-                                    </div>
-
-                                    <div class="class-details">
-                                        <div class="class-desc">
-                                            <h2>Educação Infantil</h2>
-                                            <p class="class-category">O início do ciclo básico de ensino.</p>
-                                            <p class="excerpt">Nosso objetivo é cuidar da formação de crianças em um ambiente saudável, divertido e feliz. Com atividades práticas, por meio de brincadeiras que desenvolvem o gosto pela aprendizagem, as crianças se sociabilizam, ampliando a persepção do mundo e de si mesma, de acordo o projeto pedagógico baseado nas normas do BNCC (Base Nacional Comum Curricular).</p>
-                                            <!--<p class="class-date">Turno: Manhã</p>-->
-                                        </div>
-
-                                        <div class="class-type">
-                                            <div class="class-year">
-                                                <h6 class="title">Idade</h6>
-                                                <p>2-5</p>
-                                            </div>
-
-                                            <div class="class-price">
-                                                <h6 class="title"><h5 class="title">Venha conhecer!</h5></h6>
-                                            </div>
-
-                                            <div class="class-price">
-                                                <h5 class="title">Condições especiais para novos alunos!</h5>
-                                            </div>  
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="classes-wrapper wow fadeInUp">
-                        <!--<a href="single-classes.html">-->
-                                <div class="class-item" style="background-color: #f9ac59;">
-                                    <div class="class-img">
-                                        <img src="img/classes/classes2-large.jpg" alt="" />
-                                    </div>
-
-                                    <div class="class-details">
-                                        <div class="class-desc">
-                                            <h2>Maternal</h2>
-                                            <p class="class-category">O primeiro contato da criança com a escola.</p>
-                                            <p class="excerpt">Nossa netodologia explora o movimento corporal e a coordenação motora fina, incewntivando a criatividade, socialização e a persepção visual, com atividades que visam à aquisição de novas competências colocando a criança no centro do planejsamento.</p>
-                                        <!--<p class="class-date">August 16, 2015</p>-->
-                                        </div>
-
-                                        <div class="class-type">
-                                            <div class="class-year">
-                                                <h6 class="title">Idade</h6>
-                                                <p>2-5</p>
-                                            </div>
-
-                                            <div class="class-size">
-                                                <h5 class="title">Venha conhecer!</h5>
-                                            </div>
-
-                                            <div class="class-price">
-                                                <h5 class="title">Condições especiais para novos alunos!</h5>
-                                            </div>  
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="classes-wrapper wow fadeInUp">
-                        <!--<a href="single-classes.html">-->
-                                <div class="class-item" style="background-color: #e57978;">
-                                    <div class="class-img">
-                                        <img src="img/classes/classes3-large.jpg" alt="" />
-                                    </div>
-
-                                    <div class="class-details">
-                                        <div class="class-desc">
-                                            <h2>Fundamental I</h2>
-                                            <p class="class-category">Fase responsável pela formação básica do cidadão.</p>
-                                            <p class="excerpt">Essa fase, não só desenvolve habilidades cognitivas e de conhecimento, mas também sociais. Nos anos iniciais, além do desenvolvimento socioemocional, a criança é alfabetizada. Segundo o BNCC, em relação aos conteúdos, a criança aprende o domínio da língua falada e escrita, os princípios matemáticos, a noção de espaço e tempo, os princípios científicos, além de ter um convívio com a arte e a estética.</p>
-                                        <!--<p class="class-date">August 16, 2015</p>-->
-                                        </div>
-
-                                        <div class="class-type">
-                                            <div class="class-year">
-                                                <h6 class="title">Idade</h6>
-                                                <p>7 - 11</p>
-                                            </div>
-
-                                            <div class="class-size">
-                                                <h5 class="title">Condições especiais para novos alunos!</h5>
-                                            </div>
-
-                                            <div class="class-price">
-                                                <h6 class="title">Aulas presenciais e online!</h6>
-                                            </div>                             
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="classes-wrapper wow fadeInUp">
-                        <!--<a href="single-classes.html">-->
-                                <div class="class-item" style="background-color: #7fb881;">
-                                    <div class="class-img">
-                                        <img src="img/classes/classes4-large.jpg" alt="" />
-                                    </div>
-
-                                    <div class="class-details">
-                                        <div class="class-desc">
-                                            <h2>Fundamental II</h2>
-                                            <p class="class-category">Etapa da educação básica na qual se aprofundam conhecimentos introduzidos no Ensino Fundamental I.</p>
-                                            <p class="excerpt">  Nessa fase são apresentados conceitos mais complexos aos alunos, facilitando a aprendizagem no ciclo seguinte, o Ensino Médio. Os conteúdos de várias disciplinas são interliagos, desenvolvendo no aluno um processo de aprendizado, que será essencial não só para a continuidade dos estudos, mas também para a vida em sociedade.</p>
-                                        <!--<p class="class-date">August 16, 2015</p>-->
-                                        </div>
-
-                                        <div class="class-type">
-                                            <div class="class-year">
-                                                <h6 class="title">Idade</h6>
-                                                <p>11 - 15</p>
-                                            </div>
-
-                                            <div class="class-size">
-                                                <h5 class="title">Condições especiais para novos alunos!</h5>
-                                            </div>
-
-                                            <div class="class-price">
-                                                <h6 class="title">Aulas presenciais e online!</h6>
-                                                <h4><span></span></h4>
-                                            </div> 
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- CLASSES END -->
-
-                <!-- OUR CLASSES SCRIPT START -->
-                <script type="text/javascript">
-                    jQuery(window).load(function(){
-                        var classDetailsHeight = jQuery('.class-item img').height();
-                        jQuery(".class-details").css("height", classDetailsHeight);
-                    });
-                </script>
-                <!-- OUR CLASSES SCRIPT END -->
-
-            </section>
-            <!-- CONTENT END -->
-
-            <!-- COPYRIGHT START
-            ============================================= -->
-            <div id="copyright">
-                <div class="container">
-                    <div class="row">
-                        <!-- Copyright Text Start -->
-                        <div class="copyright-text col-md-6">
-                            <p>Copyright 2020 |  Todos os direitos reservados | Produzido por Bigu</p>
-                        </div>
-                        <!-- Copyright Text End -->
-
-                        <!-- Social LInks Start -->
-                        <div class="social-links col-md-6">
-                            <ul class="no-padding">
-                                <li><a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="http://dribbble.com" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="http://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Social Links End -->
-                    </div>
-                </div>
+                  <li><a href="contact.html">Contato</a></li>
+                </ul>
+              </nav>
+              <!-- MAIN NAVIGATION END -->
             </div>
-            <!-- COPYRIGHT END -->
-
+            <!-- NAVIGATION END -->
+          </div>
         </div>
-        <!-- MAIN WRAPPER END -->
+      </header>
+      <!-- HEADER END -->
 
-        <!-- Footer Scripts
+      <!-- CONTENT START
+            ============================================= -->
+      <section id="content" class="single-wrapper">
+        <!-- Page Title -->
+        <div
+          class="grey-background wow fadeIn"
+          style="
+            background-image: url(img/slider/home/slide1original.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-bottom: 30px;
+            margin-top: 58px;
+          "
+        >
+          <div class="container">
+            <div class="heading-block page-title wow fadeInUp">
+              <h1>Nossas Turmas</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- CLASS START
+                ============================================= -->
+        <div class="classes-page">
+          <div class="container">
+            <div class="classes-wrapper wow fadeInUp">
+              <div class="class-item" style="background-color: #59bec9">
+                <div class="class-img">
+                  <img src="img/classes/classes1-large.jpg" alt="" />
+                  <!-- <div class="overlay dark"></div> -->
+                </div>
+
+                <div class="class-details">
+                  <div class="class-desc">
+                    <h2>Educação Infantil</h2>
+                    <p class="class-category">
+                      O início do ciclo básico de ensino.
+                    </p>
+                    <p class="excerpt">
+                      Nosso objetivo é cuidar da formação de crianças em um
+                      ambiente saudável, divertido e feliz. Com atividades
+                      práticas, por meio de brincadeiras que desenvolvem o gosto
+                      pela aprendizagem, as crianças se sociabilizam, ampliando
+                      a persepção do mundo e de si mesma, de acordo o projeto
+                      pedagógico baseado nas normas do BNCC (Base Nacional Comum
+                      Curricular).
+                    </p>
+                    <!--<p class="class-date">Turno: Manhã</p>-->
+                  </div>
+
+                  <div class="class-type">
+                    <div class="class-year">
+                      <h6 class="title">Idade</h6>
+                      <p>2-5</p>
+                    </div>
+
+                    <div class="class-price">
+                      <h6 class="title">
+                        <h5 class="title">Venha conhecer!</h5>
+                      </h6>
+                    </div>
+
+                    <div class="class-price">
+                      <h5 class="title">
+                        Condições especiais para novos alunos!
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="classes-wrapper wow fadeInUp">
+              <div class="class-item" style="background-color: #f9ac59">
+                <div class="class-img">
+                  <img src="img/classes/classes2-large.jpg" alt="" />
+                </div>
+
+                <div class="class-details">
+                  <div class="class-desc">
+                    <h2>Maternal</h2>
+                    <p class="class-category">
+                      O primeiro contato da criança com a escola.
+                    </p>
+                    <p class="excerpt">
+                      Nossa netodologia explora o movimento corporal e a
+                      coordenação motora fina, incewntivando a criatividade,
+                      socialização e a persepção visual, com atividades que
+                      visam à aquisição de novas competências colocando a
+                      criança no centro do planejsamento.
+                    </p>
+                    <!--<p class="class-date">August 16, 2015</p>-->
+                  </div>
+
+                  <div class="class-type">
+                    <div class="class-year">
+                      <h6 class="title">Idade</h6>
+                      <p>2-5</p>
+                    </div>
+
+                    <div class="class-size">
+                      <h5 class="title">Venha conhecer!</h5>
+                    </div>
+
+                    <div class="class-price">
+                      <h5 class="title">
+                        Condições especiais para novos alunos!
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="classes-wrapper wow fadeInUp">
+              <div class="class-item" style="background-color: #e57978">
+                <div class="class-img">
+                  <img src="img/classes/classes3-large.jpg" alt="" />
+                </div>
+
+                <div class="class-details">
+                  <div class="class-desc">
+                    <h2>Fundamental I</h2>
+                    <p class="class-category">
+                      Fase responsável pela formação básica do cidadão.
+                    </p>
+                    <p class="excerpt">
+                      Essa fase, não só desenvolve habilidades cognitivas e de
+                      conhecimento, mas também sociais. Nos anos iniciais, além
+                      do desenvolvimento socioemocional, a criança é
+                      alfabetizada. Segundo o BNCC, em relação aos conteúdos, a
+                      criança aprende o domínio da língua falada e escrita, os
+                      princípios matemáticos, a noção de espaço e tempo, os
+                      princípios científicos, além de ter um convívio com a arte
+                      e a estética.
+                    </p>
+                    <!--<p class="class-date">August 16, 2015</p>-->
+                  </div>
+
+                  <div class="class-type">
+                    <div class="class-year">
+                      <h6 class="title">Idade</h6>
+                      <p>7 - 11</p>
+                    </div>
+
+                    <div class="class-size">
+                      <h5 class="title">
+                        Condições especiais para novos alunos!
+                      </h5>
+                    </div>
+
+                    <div class="class-price">
+                      <h6 class="title">Aulas presenciais e online!</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="classes-wrapper wow fadeInUp">
+              <div class="class-item" style="background-color: #7fb881">
+                <div class="class-img">
+                  <img src="img/classes/classes4-large.jpg" alt="" />
+                </div>
+
+                <div class="class-details">
+                  <div class="class-desc">
+                    <h2>Fundamental II</h2>
+                    <p class="class-category">
+                      Etapa da educação básica na qual se aprofundam
+                      conhecimentos introduzidos no Ensino Fundamental I.
+                    </p>
+                    <p class="excerpt">
+                      Nessa fase são apresentados conceitos mais complexos aos
+                      alunos, facilitando a aprendizagem no ciclo seguinte, o
+                      Ensino Médio. Os conteúdos de várias disciplinas são
+                      interliagos, desenvolvendo no aluno um processo de
+                      aprendizado, que será essencial não só para a continuidade
+                      dos estudos, mas também para a vida em sociedade.
+                    </p>
+                    <!--<p class="class-date">August 16, 2015</p>-->
+                  </div>
+
+                  <div class="class-type">
+                    <div class="class-year">
+                      <h6 class="title">Idade</h6>
+                      <p>11 - 15</p>
+                    </div>
+
+                    <div class="class-size">
+                      <h5 class="title">
+                        Condições especiais para novos alunos!
+                      </h5>
+                    </div>
+
+                    <div class="class-price">
+                      <h6 class="title">Aulas presenciais e online!</h6>
+                      <h4><span></span></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CLASSES END -->
+
+        <!-- OUR CLASSES SCRIPT START -->
+        <script type="text/javascript">
+          jQuery(window).load(function () {
+            var classDetailsHeight = jQuery(".class-item img").height();
+            jQuery(".class-details").css("height", classDetailsHeight);
+          });
+        </script>
+        <!-- OUR CLASSES SCRIPT END -->
+      </section>
+      <!-- CONTENT END -->
+
+      <!-- COPYRIGHT START
+            ============================================= -->
+      <div id="copyright">
+        <div class="container">
+          <div class="row">
+            <!-- Copyright Text Start -->
+            <div class="copyright-text col-md-6">
+              <p>Copyright 2020 | Todos os direitos reservados</p>
+              <a href="http://bigu.tech">Produzido por Bigu.tech</a>
+            </div>
+            <!-- Copyright Text End -->
+
+            <!-- Social LInks Start -->
+            <div class="social-links col-md-6">
+              <ul class="no-padding">
+                <li>
+                  <a href="http://facebook.com" target="_blank"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="http://instagram.com" target="_blank"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <!-- Social Links End -->
+          </div>
+        </div>
+      </div>
+      <!-- COPYRIGHT END -->
+    </div>
+    <!-- MAIN WRAPPER END -->
+
+    <!-- Footer Scripts
         ============================================= -->
-        <!-- External -->
-        <script type="text/javascript" src="js/plugin.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-
-    </body>
+    <!-- External -->
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
