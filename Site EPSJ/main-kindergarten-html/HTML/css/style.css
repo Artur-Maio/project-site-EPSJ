@@ -1857,11 +1857,11 @@ ul.lesson li:first-child {
 
 .title-epsj {
     font-size: 6em;
-    color: #0197a7;
+    color: #c4bf2e;
     font-weight: 900;
     text-align: center;
     font-family: 'Open Sans';
-    text-shadow: 3px 3px white;
+    text-shadow: 3px 3px rgba(99, 105, 167, 1);
     max-width: 50%;
 }
 
